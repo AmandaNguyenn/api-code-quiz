@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+    font-style: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+#time {
+    right: 10px;
+}
+
+.takeQuiz { 
+    background-color: blueviolet;
+    color: white;
+    border-radius: 10%;
+    text-align: center;
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.takeQuiz:hover {
+    box-shadow: inset 5px 5px 5px 5px white;
+    transform: scale(10px);
+}
+
+.quiz-box {
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+    background-color: lavender;
+    width: 300px;
+    border-style: solid purple;
+    border-radius: 5px;
+}
+
+#question {
+    font-style: bold;
+}
+
+.hide {
+    display: none;
+}
